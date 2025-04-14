@@ -4,7 +4,12 @@ const cors = require('cors');
 const nodemailer = require('nodemailer');
 const app = express();
 
-app.use(cors());
+// Fixed CORS
+app.use(cors({
+  origin: process.env.CORS_ORIGIN || "https://your-frontend.onrender.com",
+  methods: ["POST"]
+}));
+
 app.use(express.json());
 
 const transporter = nodemailer.createTransport({
@@ -20,10 +25,9 @@ app.post('/send-email', async (req, res) => {
     const { name, email, message } = req.body;
     
     const mailOptions = {
-      from: email,
+      from: process.env.EMAIL_USER, // Use your email as "from"
       to: process.env.EMAIL_USER,
       subject: `New message from ${name} (Portfolio)`,
-      text: message,
       html: `
         <h3>New Contact Form Submission</h3>
         <p><strong>Name:</strong> ${name}</p>
@@ -42,4 +46,6 @@ app.post('/send-email', async (req, res) => {
 });
 
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server running on port ${PORT}`);
+});
