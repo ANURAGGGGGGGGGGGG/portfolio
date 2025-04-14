@@ -1,0 +1,43 @@
+# Frontend (Vite) Specific
+/dist
+/.vite
+/node_modules
+.env
+.env.local
+*.log
+.DS_Store
+/coverage
+.cache
+
+# Backend (Node.js) Specific
+/node_modules
+.env
+*.log
+/logs
+/coverage
+.nyc_output
+
+# General
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build files
+*.tsbuildinfo
+build
+out
+
+# Testing
+/junit.xml
+/coverage
+/test-results
+
+# Local Env Files
+.env*.local
+.pnp.*
