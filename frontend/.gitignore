@@ -1,0 +1,39 @@
+# .gitignore (for frontend/)
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*
+*.local
+
+# Editor/IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Local development cache
+.cache/
+.temp/
+
+# Optional: Testing/coverage
+coverage/
+.nyc_output/
+
+# Optional: Debug files
+debug.log
