@@ -1,0 +1,82 @@
+# Developer Portfolio 🌐
+
+A modern, responsive portfolio website showcasing projects, skills, and contact information. Built with React and Vite for optimal performance.
+
+## Features ✨
+
+- **Interactive Tech Stack** with definition cards
+- **Project Gallery** with filtering capabilities
+- **Animated Skill Progress** indicators
+- **Responsive Design** for all screen sizes
+- **Contact Form** with email integration
+- **Smooth Navigation** with React Router
+- **Modern UI** with CSS animations
+
+## Technologies Used 🛠️
+
+**Frontend:**
+- React 18
+- Vite 4
+- React Router 6
+- CSS Modules
+- React Icons
+
+**Backend (Contact Form):**
+- Node.js
+- Express
+- Nodemailer
+- MongoDB (Optional)
+
+## Installation 📦
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/your-portfolio.git
+```
+2. Install dependencies:
+```
+cd my-portfolio
+npm install
+```
+3. Start development server:
+```
+npm run dev
+```
+
+## Configuration ⚙️
+Create `.env` file for contact form:
+
+# For development
+VITE_API_URL=http://localhost:5000
+
+## Project Structure 📂
+```
+src/
+├── components/
+│   ├── Home/
+│   ├── Projects/
+│   ├── Skills/
+│   └── Contact/
+├── assets/
+│   ├── images/
+│   └── styles/
+├── App.jsx
+└── main.jsx
+```
+
+
+## Contributing 🤝
+Contributions are welcome! Please follow these steps:
+
+1. Fork the project
+
+2. Create your feature branch `(git checkout -b feature/AmazingFeature)`
+
+3. Commit your changes `(git commit -m 'Add some AmazingFeature')`
+
+4. Push to the branch `(git push origin feature/AmazingFeature)`
+
+5. Open a Pull Request
+
+
+Made with ❤️ by Anurag · [GitHub](https://github.com/ANURAGGGGGGGGGGGG)
