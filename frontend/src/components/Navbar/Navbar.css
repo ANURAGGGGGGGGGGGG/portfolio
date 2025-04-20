@@ -31,6 +31,9 @@
     justify-content: space-between;
     align-items: center;
   }
+  .logo{
+    text-decoration: none;
+  }
   
   .logo-text {
     font-family: 'Fira Code', monospace;

@@ -26,9 +26,13 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
-        <div className="logo">
+        <NavLink 
+          to="/" 
+          className="logo"
+          onClick={() => setIsOpen(false)} // Close mobile menu if open
+        >
           <span className="logo-text">{'<DevPortfolio/>'}</span>
-        </div>
+        </NavLink>
 
         <div className={`nav-links ${isOpen ? 'active' : ''}`}>
           {links.map((link) => (

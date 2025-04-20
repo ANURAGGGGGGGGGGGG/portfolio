@@ -1,6 +1,5 @@
-// components/Contact.jsx
 import { useState, useEffect, useRef } from 'react';
-import { FiMail, FiMapPin, FiPhone, FiGithub, FiLinkedin } from 'react-icons/fi';
+import { FiMail, FiMapPin, FiGithub, FiLinkedin } from 'react-icons/fi';
 import axios from 'axios';
 import './Contact.css';
 
