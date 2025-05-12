@@ -6,8 +6,9 @@ const app = express();
 
 // Fixed CORS
 app.use(cors({
-  origin: process.env.CORS_ORIGIN || "https://your-frontend.onrender.com",
-  methods: ["POST"]
+  origin: process.env.CORS_ORIGIN || "https://portfolio-gacg.onrender.com",
+  methods: ["POST"],
+  credentials: true
 }));
 
 app.use(express.json());
