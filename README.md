@@ -88,3 +88,6 @@ Contributions are welcome! Please follow these steps:
 
 
 Made with ❤️ by Anurag · [GitHub](https://github.com/ANURAGGGGGGGGGGGG)   
+
+- Anurag Mahanta 2025. All rights reserved.  
+Unauthorized use or duplication of this project without permission is prohibited.
