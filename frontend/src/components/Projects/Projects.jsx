@@ -7,18 +7,18 @@ import QrGenerator from "../../assets/QrGenerator.png";
 import BgRemover from "../../assets/BgRemover.png";
 import Portfolio_1 from "../../assets/Portfolio_1.png";
 import PasswordValidator from "../../assets/Password-Validator.png";
-import Template_1 from "../../assets/Template_1.png";
+import AiTextHumanizer from "../../assets/Ai_text_humanizer.png"
 import './Projects.css';
 
 const Projects = () => {
-  const [selectedTag, setSelectedTag] = useState('All'); // Changed to 'All'
+  const [selectedTag, setSelectedTag] = useState('All');
 
   const projects = [
     {
       id: 1,
       title: "Usability Hub",
       description: "Usability Hub Website using HTML CSS",
-      tags: ["HTML", "CSS"], // Capitalized
+      tags: ["HTML", "CSS"],
       demo: "https://anuragggggggggggg.github.io/UsabilityHub/",
       code: "https://github.com/ANURAGGGGGGGGGGGG/Website",
       image: Usability
@@ -27,7 +27,7 @@ const Projects = () => {
       id: 2,
       title: "NextBuy",
       description: "Real-time product adding, edit, Delete Functionality ",
-      tags: ["React", "Express", "Node.js", "MongoDb"], // Capitalized
+      tags: ["React", "Express", "Node.js", "MongoDb"],
       demo: "https://productstore-1-bbhh.onrender.com/",
       code: "https://github.com/ANURAGGGGGGGGGGGG/productStore",
       image: NextBuy
@@ -36,7 +36,7 @@ const Projects = () => {
       id: 3,
       title: "Portfolio Old",
       description: "1st Portfolio using HTML CSS JS",
-      tags: ["HTML", "CSS", "JS"], // Capitalized
+      tags: ["HTML", "CSS", "JS"],
       demo: "https://anuragggggggggggg.github.io/Portfolioo/",
       code: "https://github.com/ANURAGGGGGGGGGGGG/Portfolioo",
       image: Portfolio_1
@@ -70,20 +70,20 @@ const Projects = () => {
       
     },
     {
-      id : 7,
-      title : "Template-1",
-      description : "This is normal template HTML and CSS",
-      tags : ["HTML" , "CSS"],
-      demo : "https://anuragggggggggggg.github.io/Template-two/",
-      code : "https://github.com/ANURAGGGGGGGGGGGG/Template-two",
-      image : Template_1
+      id:7,
+      title : "Ai Text Humanizer",
+      description : "AI-generated text into natural, human-like content",
+      tags : ["React" , "Vite" , "CSS"],
+      demo : "https://anuragggggggggggg.github.io/ai-text-humanizer/",
+      code : "https://github.com/ANURAGGGGGGGGGGGG/ai-text-humanizer",
+      image : AiTextHumanizer
     }
 
   ];
 
   const tags = ['All', 'React','Vite', 'JS', 'Node.js', 'MongoDb', 'Express', 'HTML', 'CSS'];
 
-  const filteredProjects = selectedTag === 'All' // Changed to 'All'
+  const filteredProjects = selectedTag === 'All'
     ? projects
     : projects.filter(project => project.tags.includes(selectedTag));
 

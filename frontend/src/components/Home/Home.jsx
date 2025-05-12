@@ -1,6 +1,6 @@
 // components/Home.jsx
 import { useState, useEffect } from 'react';
-import { FiGithub } from 'react-icons/fi';
+import { FiGithub , FiLinkedin } from 'react-icons/fi';
 // import { SiNaukri } from 'react-icons/si';
 import { Link } from 'react-router-dom';
 import Mine from '../../assets/Mine.png'
@@ -78,9 +78,9 @@ const Home = () => {
               <a href="https://github.com/ANURAGGGGGGGGGGGG?tab=repositories" target="_blank" rel="noopener noreferrer">
                 <FiGithub className="social-icon" />
               </a>
-                  {/* <a href="https://www.linkedin.com/in/anurag-mahantaa/" target="_blank" rel="noopener noreferrer">
-                  <SiNaukri className = "social-icon"/>
-                  </a> */}
+                  <a href="https://www.linkedin.com/in/anurag-mahantaa/" target="_blank" rel="noopener noreferrer">
+                  <FiLinkedin className = "social-icon"/>
+                  </a>
             </div>
           </div>
         </div>
