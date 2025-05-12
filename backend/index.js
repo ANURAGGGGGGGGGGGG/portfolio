@@ -4,7 +4,6 @@ const cors = require('cors');
 const nodemailer = require('nodemailer');
 const app = express();
 
-// Fixed CORS
 app.use(cors({
   origin: process.env.CORS_ORIGIN || "https://portfolio-gacg.onrender.com",
   methods: ["POST"],
@@ -26,7 +25,7 @@ app.post('/send-email', async (req, res) => {
     const { name, email, message } = req.body;
     
     const mailOptions = {
-      from: process.env.EMAIL_USER, // Use your email as "from"
+      from: process.env.EMAIL_USER,
       to: process.env.EMAIL_USER,
       subject: `New message from ${name} (Portfolio)`,
       html: `

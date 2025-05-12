@@ -79,4 +79,4 @@ Contributions are welcome! Please follow these steps:
 5. Open a Pull Request
 
 
-Made with ❤️ by Anurag · [GitHub](https://github.com/ANURAGGGGGGGGGGGG)
+Made with ❤️ by Anurag · [GitHub](https://github.com/ANURAGGGGGGGGGGGG)   
