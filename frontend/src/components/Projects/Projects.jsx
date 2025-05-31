@@ -8,6 +8,7 @@ import BgRemover from "../../assets/BgRemover.png";
 import Portfolio_1 from "../../assets/Portfolio_1.png";
 import PasswordValidator from "../../assets/Password-Validator.png";
 import AiTextHumanizer from "../../assets/Ai_text_humanizer.png"
+import WeatherApp from "../../assets/WeatherApp.png"
 import './Projects.css';
 
 const Projects = () => {
@@ -65,23 +66,32 @@ const Projects = () => {
       description: "This is a password checker which shows ur passowrd is strong or not",
       tags: ["React"],
       demo: "https://anuragggggggggggg.github.io/password-validator/",
-      code : "https://github.com/ANURAGGGGGGGGGGGG/password-validator",
-      image : PasswordValidator
-      
+      code: "https://github.com/ANURAGGGGGGGGGGGG/password-validator",
+      image: PasswordValidator
+
     },
     {
-      id:7,
-      title : "Ai Text Humanizer",
-      description : "AI-generated text into natural, human-like content",
-      tags : ["React" , "Vite" , "CSS"],
-      demo : "https://anuragggggggggggg.github.io/ai-text-humanizer/",
-      code : "https://github.com/ANURAGGGGGGGGGGGG/ai-text-humanizer",
-      image : AiTextHumanizer
+      id: 7,
+      title: "Ai Text Humanizer",
+      description: "AI-generated text into natural, human-like content",
+      tags: ["React", "Vite", "CSS"],
+      demo: "https://anuragggggggggggg.github.io/ai-text-humanizer/",
+      code: "https://github.com/ANURAGGGGGGGGGGGG/ai-text-humanizer",
+      image: AiTextHumanizer
+    },
+    {
+      id: 8,
+      title: "Weather App",
+      description: "Get current weather and 5-day forecast by city or zip code, with clear info and helpful error messages.",
+      tags: ["React", "Vite", "CSS", "Bootstrap"],
+      demo: "https://anuragggggggggggg.github.io/weather-app/",
+      code: "https://github.com/ANURAGGGGGGGGGGGG/weather-app",
+      image: WeatherApp
     }
 
   ];
 
-  const tags = ['All', 'React','Vite', 'JS', 'Node.js', 'MongoDb', 'Express', 'HTML', 'CSS'];
+  const tags = ['All', 'React', 'Vite', 'JS', 'Node.js', 'MongoDb', 'Express', 'HTML', 'CSS'];
 
   const filteredProjects = selectedTag === 'All'
     ? projects
