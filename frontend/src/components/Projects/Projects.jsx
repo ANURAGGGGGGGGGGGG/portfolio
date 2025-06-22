@@ -9,6 +9,7 @@ import Portfolio_1 from "../../assets/Portfolio_1.png";
 import PasswordValidator from "../../assets/Password-Validator.png";
 import AiTextHumanizer from "../../assets/Ai_text_humanizer.png"
 import WeatherApp from "../../assets/WeatherApp.png"
+import QuizApp from "../../assets/QuizApp.png"
 import './Projects.css';
 
 const Projects = () => {
@@ -87,6 +88,15 @@ const Projects = () => {
       demo: "https://anuragggggggggggg.github.io/weather-app/",
       code: "https://github.com/ANURAGGGGGGGGGGGG/weather-app",
       image: WeatherApp
+    },
+    {
+      id: 9,
+      title: "Quiz App",
+      description: "Test your knowledge with these quiz questions!",
+      tags: ["React", "Vite", "CSS", "Bootstrap" ,  "Open Trivia Database API"],
+      demo: "https://github.com/ANURAGGGGGGGGGGGG/quiz-app",
+      code: "https://anuragggggggggggg.github.io/quiz-app/",
+      image: QuizApp
     }
 
   ];
