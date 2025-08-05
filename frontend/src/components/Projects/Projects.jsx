@@ -9,7 +9,11 @@ import Portfolio_1 from "../../assets/Portfolio_1.png";
 import PasswordValidator from "../../assets/Password-Validator.png";
 import AiTextHumanizer from "../../assets/Ai_text_humanizer.png"
 import WeatherApp from "../../assets/WeatherApp.png"
-import QuizApp from "../../assets/QuizApp.png"
+import QuizApp from "../../assets/QuizApp.png";
+import ZestyBite from "../../assets/ZestyBite.png";
+import QrCode from "../../assets/Qr Code Scanner.jpg";
+import TicTacToe from "../../assets/TicTacToe.jpg";
+import UrlShort from "../../assets/UrlShort.jpg";
 import './Projects.css';
 
 const Projects = () => {
@@ -94,14 +98,50 @@ const Projects = () => {
       title: "Quiz App",
       description: "Test your knowledge with these quiz questions!",
       tags: ["React", "Vite", "CSS", "Bootstrap" ,  "Open Trivia Database API"],
-      demo: "https://github.com/ANURAGGGGGGGGGGGG/quiz-app",
-      code: "https://anuragggggggggggg.github.io/quiz-app/",
+      demo: "https://anuragggggggggggg.github.io/quiz-app/",
+      code: "https://github.com/ANURAGGGGGGGGGGGG/quiz-app",
       image: QuizApp
+    },
+    {
+      id: 10,
+      title: "Zesty Bite",
+      description: "A modern Food Delivery App",
+      tags: ["Next.js", "Tailwind CSS"],
+      demo: "https://zesty-bite-iota.vercel.app/",
+      code: "https://github.com/ANURAGGGGGGGGGGGG/zesty-bite",
+      image: ZestyBite
+    },
+    {
+      id: 11,
+      title: "Qr Code Scanner",
+      description: "Unlock Seamless QR Scanning with Our Next.js-Powered Solution!",
+      tags: ["Next.js", "Tailwind CSS"],
+      demo: "https://qr-plum-zeta.vercel.app/",
+      code: "https://github.com/ANURAGGGGGGGGGGGG/Qr",
+      image: QrCode
+    },
+    {
+      id: 12,
+      title: "Tic Tac Toe",
+      description: "Tic Tac Toe the classic game using the latest in modern web development",
+      tags: ["Next.js", "Tailwind CSS"],
+      demo: "https://tic-tac-toe-xi-sandy.vercel.app/",
+      code: "https://github.com/ANURAGGGGGGGGGGGG/tic-tac-toe",
+      image: TicTacToe
+    },
+    {
+      id: 13,
+      title: "Url Shortner",
+      description: "Privacy-First URL Shortener URL shortening with complete privacy protection",
+      tags: ["Next.js", "Tailwind CSS"],
+      demo: "https://url-shortner-ten-beta.vercel.app/",
+      code: "https://github.com/ANURAGGGGGGGGGGGG/url_shortner",
+      image: UrlShort
     }
 
   ];
 
-  const tags = ['All', 'React', 'Vite', 'JS', 'Node.js', 'MongoDb', 'Express', 'HTML', 'CSS'];
+  const tags = ['All', 'React', 'Vite', 'JS', 'Node.js', 'MongoDb', 'Express', 'HTML', 'CSS' , "Next.js"];
 
   const filteredProjects = selectedTag === 'All'
     ? projects

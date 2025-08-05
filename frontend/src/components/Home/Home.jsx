@@ -27,12 +27,20 @@ const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const techDefinitions = {
-    HTML: "HTML (HyperText Markup Language) is the standard markup language used to create and structure content for the World Wide Web. It provides the foundational structure of web pages by defining elements like headings, paragraphs, images, links, forms, and more.",
-    CSS: "CSS (Cascading Style Sheets) is a language used to style and layout web pages. It controls the visual presentation of HTML elements, including colors, fonts, spacing, animations, and responsiveness.",
-    JavaScript: "JavaScript (JS) is a high-level, versatile programming language used to create dynamic, interactive behavior on web pages and applications. It’s one of the core technologies of the web, alongside HTML (structure) and CSS (styling).",
-    React: "React.js (commonly called React) is an open-source JavaScript library for building user interfaces (UIs). Developed by Meta (formerly Facebook), it focuses on creating reusable components to build dynamic, fast, and scalable web applications",
-    "Node.js": "Node.js is an open-source, JavaScript runtime environment that allows you to run JavaScript code outside a web browser (e.g., on servers, desktops, or IoT devices). Built on Chrome’s V8 JavaScript engine, it’s designed for building scalable, high-performance network applications.",
-    MongoDB: "MongoDB is a NoSQL, document-oriented database designed for flexibility, scalability, and high performance. Unlike traditional relational databases (e.g., MySQL, PostgreSQL), it stores data in JSON-like documents (BSON format) instead of tables, making it ideal for unstructured or semi-structured data."
+  HTML: "HTML (HyperText Markup Language) is the standard markup language used to create and structure content for the World Wide Web. It provides the foundational structure of web pages by defining elements like headings, paragraphs, images, links, forms, and more.",
+
+  CSS: "CSS (Cascading Style Sheets) is a language used to style and layout web pages. It controls the visual presentation of HTML elements, including colors, fonts, spacing, animations, and responsiveness.",
+
+  JavaScript: "JavaScript (JS) is a high-level, versatile programming language used to create dynamic, interactive behavior on web pages and applications. It’s one of the core technologies of the web, alongside HTML (structure) and CSS (styling).",
+
+  React: "React.js (commonly called React) is an open-source JavaScript library for building user interfaces (UIs). Developed by Meta (formerly Facebook), it focuses on creating reusable components to build dynamic, fast, and scalable web applications.",
+
+  "Next.js": "Next.js is a powerful React framework for building full-stack web applications with features like server-side rendering (SSR), static site generation (SSG), API routes, and built-in routing. Developed by Vercel, it simplifies performance optimization and SEO for React-based projects.",
+
+  "Node.js": "Node.js is an open-source, JavaScript runtime environment that allows you to run JavaScript code outside a web browser (e.g., on servers, desktops, or IoT devices). Built on Chrome’s V8 JavaScript engine, it’s designed for building scalable, high-performance network applications.",
+
+  MongoDB: "MongoDB is a NoSQL, document-oriented database designed for flexibility, scalability, and high performance. Unlike traditional relational databases (e.g., MySQL, PostgreSQL), it stores data in JSON-like documents (BSON format) instead of tables, making it ideal for unstructured or semi-structured data."
+
   };
 
   useEffect(() => {
