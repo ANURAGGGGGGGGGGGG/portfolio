@@ -97,7 +97,7 @@ const Projects = () => {
       id: 9,
       title: "Quiz App",
       description: "Test your knowledge with these quiz questions!",
-      tags: ["React", "Vite", "CSS", "Bootstrap" ,  "Open Trivia Database API"],
+      tags: ["React", "Vite", "CSS", "Bootstrap", "Open Trivia Database API"],
       demo: "https://anuragggggggggggg.github.io/quiz-app/",
       code: "https://github.com/ANURAGGGGGGGGGGGG/quiz-app",
       image: QuizApp
@@ -137,11 +137,20 @@ const Projects = () => {
       demo: "https://url-shortner-ten-beta.vercel.app/",
       code: "https://github.com/ANURAGGGGGGGGGGGG/url_shortner",
       image: UrlShort
+    },
+    {
+      id: 14,
+      title: "E‑commerce Website (ShopEasy)",
+      description: "Checkout flow with accurate totals, instant status & polished UI",
+      tags: ["Next.js", "Tailwind CSS"],
+      demo: "https://future-fs-02-red.vercel.app/",
+      code: "https://github.com/ANURAGGGGGGGGGGGG/FUTURE_FS_02",
+      image: "https://media.licdn.com/dms/image/v2/D4D22AQFfZJVmg64kIA/feedshare-shrink_800/B4DZjMg3sLGsAk-/0/1755777827365?e=1759363200&v=beta&t=Y1b5-vgFMbbMhpyGYj5seJHXoMA_tiIXsoypj8nZLqM"
     }
 
   ];
 
-  const tags = ['All', 'React', 'Vite', 'JS', 'Node.js', 'MongoDb', 'Express', 'HTML', 'CSS' , "Next.js"];
+  const tags = ['All', 'React', 'Vite', 'JS', 'Node.js', 'MongoDb', 'Express', 'HTML', 'CSS', "Next.js"];
 
   const filteredProjects = selectedTag === 'All'
     ? projects
