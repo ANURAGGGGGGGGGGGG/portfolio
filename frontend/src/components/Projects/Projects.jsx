@@ -145,7 +145,7 @@ const Projects = () => {
       tags: ["Next.js", "Tailwind CSS"],
       demo: "https://future-fs-02-red.vercel.app/",
       code: "https://github.com/ANURAGGGGGGGGGGGG/FUTURE_FS_02",
-      image: "https://media.licdn.com/dms/image/v2/D4D22AQFfZJVmg64kIA/feedshare-shrink_800/B4DZjMg3sLGsAk-/0/1755777827365?e=1759363200&v=beta&t=Y1b5-vgFMbbMhpyGYj5seJHXoMA_tiIXsoypj8nZLqM"
+      image: "https://media.licdn.com/dms/image/v2/D4D22AQFfZJVmg64kIA/feedshare-shrink_800/B4DZjMg3sLGsAk-/0/1755777827365?e=1762387200&v=beta&t=kQyjwK5KuAOqfkTZJoZl4wMsTUwdrQLNWsvF6gmK8IY"
     },
     {
       id: 14,
@@ -154,7 +154,25 @@ const Projects = () => {
       tags: ["Next.js", "Tailwind CSS", "React"],
       demo: "https://future-fs-03-gamma.vercel.app/",
       code: "https://github.com/ANURAGGGGGGGGGGGG/FUTURE_FS_03",
-      image: "https://media.licdn.com/dms/image/v2/D4D22AQH3GnhqMRFuFA/feedshare-shrink_800/B4DZjwuDw.H0Ag-/0/1756385263372?e=1759363200&v=beta&t=bObSajrtISJjZtiNcy3SBK_2Dtz1Irfd9u_yu2Umtmk"
+      image: "https://media.licdn.com/dms/image/v2/D4D22AQH3GnhqMRFuFA/feedshare-shrink_800/B4DZjwuDw.H0Ag-/0/1756385263372?e=1762387200&v=beta&t=tPa42vrlfFVi-VQ-jwFx97A5T2nThNmNoEh4JCRsDIU"
+    },
+    {
+      id: 15,
+      title: "Meme Generator",
+      description: "A Privacy-Focused Web App for Creating Hilarious Memes! 😂",
+      tags: ["Next.js", "Tailwind CSS", "React" , "Html"],
+      demo: "https://meme-generator-rosy-five.vercel.app/",
+      code: "https://github.com/ANURAGGGGGGGGGGGG/meme-generator",
+      image: "https://i.postimg.cc/yNVJSTCc/Screenshot-2025-10-29-172657.png"
+    },
+    {
+      id: 16,
+      title: "Screenly ",
+      description: "Secure, Scalable Digital Signage",
+      tags: ["Next.js", "Tailwind CSS", "React" , "Html"],
+      demo: "https://moviee-app-lemon.vercel.app/",
+      code: "https://github.com/ANURAGGGGGGGGGGGG/moviee-app",
+      image: "https://i.postimg.cc/02dc1nf5/Screenshot-2025-10-06-221908.png"
     }
 
   ];
