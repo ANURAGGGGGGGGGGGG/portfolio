@@ -173,6 +173,33 @@ const Projects = () => {
       demo: "https://moviee-app-lemon.vercel.app/",
       code: "https://github.com/ANURAGGGGGGGGGGGG/moviee-app",
       image: "https://i.postimg.cc/02dc1nf5/Screenshot-2025-10-06-221908.png"
+    },
+    {
+      id: 17,
+      title: "Sketchboard",
+      description: "A fast, minimal drawing app built with Next.js and Tailwind CSS.",
+      tags: ["Next.js", "Tailwind CSS", "React" , "Html"],
+      demo: "https://drawing-app-omega-two.vercel.app/",
+      code: "https://github.com/ANURAGGGGGGGGGGGG/drawing-app",
+      image: "https://i.postimg.cc/hPzwXMnM/image.png"
+    },
+    {
+      id: 18,
+      title: "Email Spam Report Tool",
+      description: "Inbox/Spam/Promotions",
+      tags: ["Next.js", "Tailwind CSS", "React" , "Html"],
+      demo: "https://email-spammer-tool.vercel.app/",
+      code: "https://github.com/ANURAGGGGGGGGGGGG/email-spammer-tool",
+      image: "https://i.postimg.cc/MpYhwHxb/image.png"
+    },
+    {
+      id: 19,
+      title: "Survey Insights Tool",
+      description: " — Create, Share, Analyze",
+      tags: ["Next.js", "Tailwind CSS", "React" , "Html"],
+      demo: "https://survey-app-puce.vercel.app/",
+      code: "https://github.com/ANURAGGGGGGGGGGGG/survey-app",
+      image: "https://i.postimg.cc/ydMJ6Rb7/image.png"
     }
 
   ];
