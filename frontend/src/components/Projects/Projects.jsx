@@ -200,6 +200,24 @@ const Projects = () => {
       demo: "https://survey-app-puce.vercel.app/",
       code: "https://github.com/ANURAGGGGGGGGGGGG/survey-app",
       image: "https://i.postimg.cc/ydMJ6Rb7/image.png"
+    },
+    {
+      id: 20,
+      title: "🎬 Netflix Clone",
+      description: "Stream, Browse, Discover",
+      tags: ["Next.js", "Tailwind CSS", "React" , "Html"],
+      demo: "https://netflix-clone-ten-ruddy-20.vercel.app/",
+      code: "https://github.com/ANURAGGGGGGGGGGGG/netflix-clone",
+      image: "https://i.postimg.cc/TY2mfL6y/image.png"
+    },
+    {
+      id: 21,
+      title: "Parallex Website",
+      description: "Depth, Motion, Storytelling",
+      tags: ["Next.js", "Tailwind CSS", "React" , "Html"],
+      demo: "https://parallex-landing.vercel.app/",
+      code: "https://github.com/ANURAGGGGGGGGGGGG/parallex-landing",
+      image: "https://i.postimg.cc/QMgycvZt/image.png"
     }
 
   ];
