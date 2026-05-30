@@ -31,12 +31,12 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "NextBuy",
+      title: "ShopLux",
       description: "Real-time product adding, edit, Delete Functionality ",
       tags: ["React", "Express", "Node.js", "MongoDb"],
-      demo: "https://productstore-1-bbhh.onrender.com/",
-      code: "https://github.com/ANURAGGGGGGGGGGGG/productStore",
-      image: NextBuy
+      demo: "https://ecommerce-rust-six-96.vercel.app/",
+      code: "https://github.com/ANURAGGGGGGGGGGGG/Ecommerce",
+      image: "https://i.postimg.cc/vHb0Cvxc/Screenshot-2026-05-30-163632.png`"
     },
     {
       id: 3,
