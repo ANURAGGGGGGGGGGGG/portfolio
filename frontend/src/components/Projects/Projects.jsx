@@ -4,10 +4,7 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi';
 import Reveal from '../Reveal';
 import Usability from "../../assets/UsabilityHub.png";
 import NextBuy from "../../assets/NextBuy.png";
-import QrGenerator from "../../assets/QrGenerator.png";
-import BgRemover from "../../assets/BgRemover.png";
 import Portfolio_1 from "../../assets/Portfolio_1.png";
-import PasswordValidator from "../../assets/Password-Validator.png";
 import AiTextHumanizer from "../../assets/Ai_text_humanizer.png"
 import WeatherApp from "../../assets/WeatherApp.png"
 import QuizApp from "../../assets/QuizApp.png";
@@ -55,7 +52,7 @@ const Projects = () => {
       tags: ["React"],
       demo: "https://anuragggggggggggg.github.io/qr-code-generator/",
       code: "https://github.com/ANURAGGGGGGGGGGGG/qr-code-generator/blob/main/src/Qr_Generator.jsx",
-      image: QrGenerator
+      image: "https://i.postimg.cc/MTSJWPMT/image.png"
     },
     {
       id: 5,
@@ -64,7 +61,7 @@ const Projects = () => {
       tags: ["React"],
       demo: "https://anuragggggggggggg.github.io/imageBgRemover/",
       code: "https://github.com/ANURAGGGGGGGGGGGG/imageBgRemover",
-      image: BgRemover
+      image: "https://i.postimg.cc/4d8CzzxG/image.png"
     },
     {
       id: 6,
@@ -73,7 +70,7 @@ const Projects = () => {
       tags: ["React"],
       demo: "https://anuragggggggggggg.github.io/password-validator/",
       code: "https://github.com/ANURAGGGGGGGGGGGG/password-validator",
-      image: PasswordValidator
+      image: "https://i.postimg.cc/7ZH7fSD8/image.png"
 
     },
     {
